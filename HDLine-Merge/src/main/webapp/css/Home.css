@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* 전체 선택자 */
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse:collapse;
+    margin: 0px;
+    padding: 0px;
+    color:#000;
+}
+/* navbar css */
+.navbar-brand
+{
+    font-weight: bold;
+}
+
+.nav
+{
+    width:800px;
+    display: flex;
+    position: relative;
+    /* background-color: aqua; */
+    padding-left: 0px;
+    justify-content: space-between;
+}
+/* menu css */
+.menu
+{
+    width: 1500px;
+    overflow: hidden;
+    margin: 65px auto 20px;
+/*    background-color: #5778ff;*/
+}
+
+.menu > li 
+{
+    float: left;
+    text-align: center;
+    line-height: 50px;
+/*    background-color: #5778ff;*/
+}  
+
+.menu a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+.submenu > li 
+{
+    line-height: 50px;
+/*    background-color: #94a9ff;*/
+}
+  
+.submenu 
+{
+    height: 0; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+}
+
+.menu > li:hover 
+{
+/*    background-color: #94a9ff;*/
+    transition-duration: 0.5s;
+}
+  
+  .menu > li:hover .submenu 
+{
+    height: 300px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+
+
+/* middle 모델 및 디자이너 게시판 영역 */
+.middle
+{
+    background-color: bisque;
+    width: 1200px;
+    height: 200px;
+    margin: 50px auto;
+    display:flex;
+}
+
+ /* 게시판 노출영역 */
+
+#middle-container > div
+{  
+    display: flex;
+    margin : 30px 0;
+}
+
+#middle-container > div > .contanierline
+{
+    position: fixed;
+}
+
+
+.middle2
+{
+/*    background-color: #94a9ff;*/
+    width: 700px;
+    min-width: 700px;
+    height: 700px;
+    margin: 30px auto;
+}
+
+.middle3
+{
+    background-color: aquamarine;
+    width: 700px;
+    min-width: 700px;
+    height: 700px;
+    margin: 30px auto;
+}
+
+.middle4
+{
+    background-color: burlywood;
+    width: 700px;
+    min-width: 700px;
+    height: 700px;
+    margin: 30px auto;
+}
+
+.middle5
+{
+    background-color: brown;
+    width: 700px;
+    min-width: 700px;
+    height: 700px;
+    margin: 30px auto;
+} 

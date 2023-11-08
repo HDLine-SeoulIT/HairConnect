@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* 전체 선택자 */
+
+/* 구글폰트 사용방법 2 */
+@import url('https://fonts.googleapis.com/css2? family= Black+Han+Sans & display=swap');
+
+*
+{
+    list-style: none;
+    text-decoration: none;
+    border-collapse:collapse;
+    margin: 0px;
+    padding: 0px;
+    color:#000;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size:20px;
+}
+
+/* Login page */
+
+/* navbar css */
+.navbar-brand
+{
+    font-size: 600px;
+    font-weight: 600;
+}
+
+.nav-item > .nav-link
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+/* login 배경 */
+.login_bg
+{
+    margin-top: 25px;
+    margin-bottom: 200px;
+    background-image: url(./image/hairshop2.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 800px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_border
+{
+    position: relative;
+    top: 40px;
+    left: 60px;
+    width: 85%;
+    height: 720px;
+    /* background-color: brown; */
+    justify-content: center;
+}
+
+.login_border > .login_name 
+{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+    /* font-size: 30px; */
+    color:#aa8d66;
+    justify-content:space-between;
+}
+
+.login_border > .login_name > .login_form
+{
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* 로그인 폼 input css */
+.login_form
+{
+    margin-top: 40px;
+    height: 500px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    /* 유연한 박스 모델(flexbox) 사용 */
+    display: flex; 
+    /* 요소들을 수직으로 정렬 */
+    flex-direction: column;
+    /* 수직 가운데 정렬 */
+    align-items: center;
+    /* 수평 가운데 정렬 */
+    justify-content: center; 
+}
+
+
+.login_form input
+{
+    width: auto;
+    display: block;
+    width: 300px;
+    background-color: hsla(0, 0%, 93%, 0.6);
+    border-radius: 4px;
+    /* 들여쓰기 */
+    text-indent : 15px;
+    margin-top: 15px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login_form >.button 
+{
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+	background-color: rgba(173, 173, 173, 0.8);
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 9px;
+	cursor: pointer;
+    text-indent : -8px;
+}
+
+
+.login_form > .button_css
+{
+    width: 200px;
+    /* background-color: bisque; */
+}
+
+/* 소셜로그인 버튼 css */
+.social_login
+{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px; 
+    /* background-color: aqua; */
+    justify-content: center;
+    text-align: center;
+}
+
+.social_login img
+{
+    display: inline-block;
+}
+
+.kakao
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+}
+
+.naver
+{
+    width: 300px;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.google
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+}
+
+   
+
+
